@@ -15,6 +15,13 @@ local M = {
         })
 
         vim.diagnostic.config({
+            priority = {
+                [vim.diagnostic.severity.ERROR] = 3,
+                [vim.diagnostic.severity.WARN] = 2,
+                [vim.diagnostic.severity.INFO] = 1,
+                [vim.diagnostic.severity.HINT] = 0,
+            },
+            severity_sort = true,
             signs = {
                 text = {
                     [vim.diagnostic.severity.ERROR] = "",
