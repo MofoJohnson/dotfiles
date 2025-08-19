@@ -32,5 +32,8 @@ keymap("n", "<leader>x", "<cmd>!chmod +x %<cr>", { silent = true })
 -- allows you to change all occurences of the current word you are on
 keymap("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
+-- open neogit
+keymap("n", "<leader>go", "<cmd>Neogit<cr>")
+
 -- open lazy
 keymap("n", "<leader>l", "<cmd>Lazy<cr>")
