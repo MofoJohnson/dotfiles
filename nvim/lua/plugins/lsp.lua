@@ -3,6 +3,12 @@ local M = {
 
     config = function()
         vim.lsp.config("*", {})
+
+        vim.diagnostic.config({
+            virtual_lines = {
+                current_line = true,
+            },
+        })
         vim.lsp.enable({
             "lua_ls",
         })
