@@ -1,0 +1,11 @@
+/*
+
+!.gitignore
+
+**/.DS_Store
+
+!nvim/
+!iterm2/
+
+!.zshrc
+!.zshenv
