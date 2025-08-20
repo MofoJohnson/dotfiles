@@ -17,6 +17,10 @@ local M = {
 					auto_insert = false,
 				},
 			},
+			ghost_text = {
+				enabled = true,
+				show_with_menu = true,
+			},
 		},
 		keymap = {
 			preset = "none",
