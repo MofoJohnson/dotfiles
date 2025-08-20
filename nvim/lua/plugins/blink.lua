@@ -2,6 +2,7 @@ local M = {
 	"saghen/blink.cmp",
 	dependencies = {
 		{ "disrupted/blink-cmp-conventional-commits" },
+		{ "fang2hou/blink-copilot" },
 	},
 	version = "1.*",
 
@@ -33,6 +34,7 @@ local M = {
 		},
 		sources = {
 			default = {
+				"copilot",
 				"lsp",
 				"buffer",
 				"snippets",
@@ -40,6 +42,12 @@ local M = {
 				"conventional_commits",
 			},
 			providers = {
+				copilot = {
+					name = "copilot",
+					module = "blink-copilot",
+					score_offset = 100,
+					async = true,
+				},
 				conventional_commits = {
 					name = "Conventional Commits",
 					module = "blink-cmp-conventional-commits",
