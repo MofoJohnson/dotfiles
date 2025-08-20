@@ -16,8 +16,3 @@ vim.opt.cursorline = true
 
 -- adds padding of 16 lines to bottom
 vim.opt.scrolloff = 16
-
--- sets .pl files to have prolog syntax highlighting
-vim.api.nvim_exec([[
-    au BufRead,BufNewFile *.pl set filetype=prolog
-]], false)
