@@ -11,6 +11,12 @@ local M = {
 			documentation = {
 				auto_show = true,
 			},
+			list = {
+				selection = {
+					preselect = false,
+					auto_insert = false,
+				},
+			},
 		},
 		keymap = {
 			preset = "none",
