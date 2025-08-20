@@ -10,8 +10,11 @@ Contains various settings I changed
 
 ## Plugins
 ### List of plugins installed
+- [blink-cmp-conventional-commits](https://github.com/disrupted/blink-cmp-conventional-commits)
+- [blink-copilot](https://github.com/fang2hou/blink-copilot)
 - [blink.cmp](https://github.com/Saghen/blink.cmp)
 - [Comment.nvim](https://github.com/numToStr/Comment.nvim)
+- [copilot.lua](https://github.com/zbirenbaum/copilot.lua)
 - [conform.nvim](https://github.com/stevearc/conform.nvim)
 - [diffview.nvim](https://github.com/sindrets/diffview.nvim)
 - [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
