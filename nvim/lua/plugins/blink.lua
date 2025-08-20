@@ -33,6 +33,10 @@ local M = {
 		},
 		sources = {
 			default = {
+				"lsp",
+				"buffer",
+				"snippets",
+				"path",
 				"conventional_commits",
 			},
 			providers = {
