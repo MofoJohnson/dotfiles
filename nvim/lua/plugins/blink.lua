@@ -1,9 +1,5 @@
 local M = {
 	"saghen/blink.cmp",
-	dependencies = {
-		{ "rafamadriz/friendly-snippets" },
-		{ "L3MON4D3/LuaSnip", version = "v2.*" },
-	},
 	version = "1.*",
 
 	opts = {
@@ -28,6 +24,9 @@ local M = {
 			["<CR>"] = { "accept", "fallback" },
 			["<Tab>"] = { "select_next", "fallback" },
 			["<S-Tab>"] = { "select_prev", "fallback" },
+		},
+		snippets = {
+			preset = "luasnip",
 		},
 	},
 	opts_extend = { "sources.default" },
