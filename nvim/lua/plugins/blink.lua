@@ -47,6 +47,9 @@ local M = {
 					module = "blink-copilot",
 					score_offset = 100,
 					async = true,
+					opts = {
+						max_completions = 1,
+					},
 				},
 				conventional_commits = {
 					name = "Conventional Commits",
