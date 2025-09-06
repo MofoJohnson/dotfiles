@@ -10,6 +10,7 @@ Contains various settings I changed
 
 ## Plugins
 ### List of plugins installed
+- [auto-session](https://github.com/rmagatti/auto-session)
 - [blink-cmp-conventional-commits](https://github.com/disrupted/blink-cmp-conventional-commits)
 - [blink-copilot](https://github.com/fang2hou/blink-copilot)
 - [blink.cmp](https://github.com/Saghen/blink.cmp)
