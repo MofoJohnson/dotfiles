@@ -16,3 +16,6 @@ vim.opt.cursorline = true
 
 -- adds padding of 16 lines to bottom
 vim.opt.scrolloff = 16
+
+-- auto-session options
+vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
