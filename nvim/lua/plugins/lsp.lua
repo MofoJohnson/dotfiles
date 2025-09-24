@@ -12,6 +12,11 @@ local M = {
 				},
 			},
 		})
+		vim.lsp.config("just-lsp", {
+			cmd = { "just-lsp" },
+			filetypes = { "just" },
+			root_markers = { ".git" },
+		})
 		vim.lsp.config("lua_ls", {
 			settings = {
 				Lua = {
@@ -45,6 +50,7 @@ local M = {
 		})
 		vim.lsp.enable({
 			"basedpyright",
+			"just-lsp",
 			"lua_ls",
 		})
 	end,
