@@ -53,6 +53,7 @@ local M = {
 			"biome",
 			"just-lsp",
 			"lua_ls",
+			"vtsls",
 		})
 	end,
 }
