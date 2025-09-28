@@ -8,10 +8,13 @@ local M = {
 		require("nvim-treesitter").install({
 			"css",
 			"html",
+			"javasvcript",
+			"json",
 			"lua",
 			"markdown",
 			"python",
 			"rust",
+			"typescript",
 		})
 	end,
 }
