@@ -67,3 +67,6 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# openjdk
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
