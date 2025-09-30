@@ -51,6 +51,7 @@ local M = {
 		vim.lsp.enable({
 			"basedpyright",
 			"biome",
+			"jdtls",
 			"just-lsp",
 			"lua_ls",
 			"vtsls",
