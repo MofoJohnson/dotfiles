@@ -2,7 +2,7 @@
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
@@ -23,9 +23,9 @@ plugins=(fzf zoxide zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR="vim"
+    export EDITOR="vim"
 else
-  export EDITOR="nvim"
+    export EDITOR="nvim"
 fi
 
 # remove duplicates from history
@@ -51,6 +51,10 @@ alias .3="cd ../../.."
 alias .4="cd ../../../.."
 alias .5="cd ../../../../.."
 
+# SHORTCUTS TO UPDATE PACKAGES
+# cargo
+# homebrew
+
 # always mkdir a path (this doesn"t inhibit functionality to make a single dir)
 alias mkdir="mkdir -p"
 
@@ -63,10 +67,15 @@ nvimconf() (
 # pnpm
 export PNPM_HOME="/Users/caolin.hughes/Library/pnpm"
 case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
+    *":$PNPM_HOME:"*) ;;
+    *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
 
 # openjdk
 export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+
+# PATH
+export PATH="/opt/homebrew/opt/rustup/bin:$PATH:"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
