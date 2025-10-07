@@ -55,6 +55,7 @@ local M = {
 			"just-lsp",
 			"lua_ls",
 			"vtsls",
+			"yamlls",
 		})
 	end,
 }

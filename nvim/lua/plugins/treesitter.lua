@@ -16,6 +16,7 @@ local M = {
 			"python",
 			"rust",
 			"typescript",
+			"yaml",
 		})
 	end,
 }
