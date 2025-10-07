@@ -27,6 +27,15 @@ local M = {
 				},
 			},
 		})
+		vim.lsp.config("yamlls", {
+			settings = {
+				yaml = {
+					schemas = {
+						["https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json"] = ".gitlab-ci.yml",
+					},
+				},
+			},
+		})
 
 		vim.diagnostic.config({
 			priority = {
