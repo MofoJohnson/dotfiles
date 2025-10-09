@@ -51,9 +51,10 @@ alias .3="cd ../../.."
 alias .4="cd ../../../.."
 alias .5="cd ../../../../.."
 
-# SHORTCUTS TO UPDATE PACKAGES
-# cargo
-# homebrew
+# update global cargo packages
+alias cargoup="cargo install $(cargo install --list | awk '/^[^ ]/ {print $1}' | cut -d':' -f1)"
+# update homebrew packages
+alias brewup="brew update && brew upgrade && brew cleanup && brew doctor"
 
 # always mkdir a path (this doesn"t inhibit functionality to make a single dir)
 alias mkdir="mkdir -p"
