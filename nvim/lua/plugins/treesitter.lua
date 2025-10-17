@@ -11,11 +11,13 @@ local M = {
 			"java",
 			"javasvcript",
 			"json",
+			"jsx",
 			"lua",
 			"markdown",
 			"python",
 			"rust",
 			"typescript",
+			"tsx",
 			"yaml",
 		})
 	end,
