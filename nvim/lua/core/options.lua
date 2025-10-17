@@ -5,7 +5,7 @@ vim.opt.termguicolors = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
-vim.bo.softtabstop = 4
+vim.opt.softtabstop = 4
 
 -- set tabs to 2 spaces for eslint recommended languages
 vim.api.nvim_create_autocmd({ "FileType" }, {
