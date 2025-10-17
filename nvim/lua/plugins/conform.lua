@@ -3,8 +3,17 @@ local M = {
 
 	opts = {
 		formatters_by_ft = {
+			css = { "prettierd" },
+			html = { "prettierd" },
+			javascript = { "prettierd" },
+			javascriptreact = { "prettierd" },
+			json = { "prettierd" },
 			lua = { "stylua" },
+			markdown = { "prettierd" },
 			python = { "isort", "black" },
+			scss = { "prettierd" },
+			typescript = { "prettierd" },
+			typescriptreact = { "prettierd" },
 		},
 		format_on_save = {
 			async = false,
