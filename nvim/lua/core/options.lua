@@ -8,7 +8,7 @@ vim.opt.expandtab = true
 vim.opt.softtabstop = 4
 
 -- set tabs to 2 spaces for eslint recommended languages
-vim.api.nvim_create_autocmd({ "FileType" }, {
+vim.api.nvim_create_autocmd("FileType", {
 	pattern = {
 		"typescript",
 		"typescriptreact",
@@ -17,11 +17,12 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 		"json",
 		"jsonc",
 	},
+
 	callback = function()
-		vim.opt_local.tabstop = 2
-		vim.opt_local.shiftwidth = 2
-		vim.opt_local.expandtab = true
-		vim.opt_local.softtabstop = 2
+		vim.bo.tabstop = 2
+		vim.bo.shiftwidth = 2
+		vim.bo.expandtab = true
+		vim.bo.softtabstop = 2
 	end,
 })
 
