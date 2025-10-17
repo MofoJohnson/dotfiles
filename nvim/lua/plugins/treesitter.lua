@@ -16,6 +16,7 @@ local M = {
 			"markdown",
 			"python",
 			"rust",
+			"scss",
 			"typescript",
 			"tsx",
 			"yaml",
