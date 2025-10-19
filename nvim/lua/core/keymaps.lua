@@ -37,3 +37,6 @@ keymap("n", "<leader>go", "<cmd>Neogit<cr>")
 
 -- open lazy
 keymap("n", "<leader>l", "<cmd>Lazy<cr>")
+
+-- goto definition
+keymap("n", "<leader>gd", vim.lsp.buf.definition)
