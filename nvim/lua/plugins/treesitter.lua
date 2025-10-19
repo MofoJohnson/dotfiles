@@ -6,6 +6,8 @@ local M = {
 
 	config = function(_, _)
 		require("nvim-treesitter").install({
+			"c",
+			"cpp",
 			"css",
 			"html",
 			"java",
