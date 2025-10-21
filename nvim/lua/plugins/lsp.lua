@@ -12,6 +12,17 @@ local M = {
 				},
 			},
 		})
+		vim.lsp.config("jdtls", {
+			settings = {
+				java = {
+					project = {
+						referencedLibraries = {
+							vim.fn.getcwd() .. "/lib/**/*.jar",
+						},
+					},
+				},
+			},
+		})
 		vim.lsp.config("just-lsp", {
 			cmd = { "just-lsp" },
 			filetypes = { "just" },
