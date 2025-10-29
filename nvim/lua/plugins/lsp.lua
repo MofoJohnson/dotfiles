@@ -20,6 +20,9 @@ local M = {
 							vim.fn.getcwd() .. "/lib/**/*.jar",
 						},
 					},
+					projectSourcePaths = {
+						"src/main/java",
+					},
 				},
 			},
 		})
