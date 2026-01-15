@@ -12,7 +12,7 @@ local M = {
 			"go",
 			"html",
 			"java",
-			"javasvcript",
+			"javascript",
 			"json",
 			"jsx",
 			"lua",
