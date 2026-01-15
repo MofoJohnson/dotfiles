@@ -9,6 +9,7 @@ local M = {
 			"c",
 			"cpp",
 			"css",
+			"go",
 			"html",
 			"java",
 			"javasvcript",

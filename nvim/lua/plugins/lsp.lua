@@ -75,6 +75,7 @@ local M = {
 			"basedpyright",
 			"biome",
 			"clangd",
+			"gopls",
 			"jdtls",
 			"just-lsp",
 			"lua_ls",
