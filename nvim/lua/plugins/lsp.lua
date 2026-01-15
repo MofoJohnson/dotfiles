@@ -79,6 +79,7 @@ local M = {
 			"jdtls",
 			"just-lsp",
 			"lua_ls",
+			"tailwind",
 			"vtsls",
 			"yamlls",
 		})
