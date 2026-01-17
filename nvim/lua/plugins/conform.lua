@@ -6,6 +6,12 @@ local M = {
 			clang_format = {
 				args = { "--style={BasedOnStyle: Google, IndentWidth: 4}" },
 			},
+			black = {
+				command = ".venv/bin/black",
+			},
+			isort = {
+				command = ".venv/bin/isort",
+			},
 		},
 		formatters_by_ft = {
 			c = { "clang_format" },
