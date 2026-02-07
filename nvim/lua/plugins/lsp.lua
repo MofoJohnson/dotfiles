@@ -75,11 +75,12 @@ local M = {
 			"basedpyright",
 			"biome",
 			"clangd",
+			"docker_language_server",
 			"gopls",
 			"jdtls",
 			"just-lsp",
 			"lua_ls",
-			"tailwind",
+			"tailwindcss",
 			"vtsls",
 			"yamlls",
 		})
